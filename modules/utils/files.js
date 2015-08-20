@@ -4,6 +4,7 @@ var files = {
     readFile: function (folder, fileName) {
         try {
             var path = GLOBAL.conf.common.folder[folder];
+            console.log('path', path)
             if (path == undefined)
                 return null;
             return fs.readFileSync(path + fileName).toString();

@@ -53,7 +53,7 @@ var commonConfig = {
         adwords: {},
         bing: {},
         folder: {
-            'temp': __dirname.replace('config', 'Files') + '/' + 'Temp'
+            'temp': __dirname.replace('config', 'Files') + '/' + 'Temp' + '/'
         }
     },
     stage: {
