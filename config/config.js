@@ -53,7 +53,7 @@ var commonConfig = {
         adwords: {},
         bing: {},
         folder: {
-
+            'temp': __dirname.replace('config', 'Files') + '/' + 'Temp'
         }
     },
     stage: {
@@ -67,9 +67,9 @@ var commonConfig = {
 // config object
 var appData = {
     version: '6.00',
-    mssql_db_environment: 'dev',
-    mongo_db_environment: 'dev',
-    sys_environment: 'dev',
+    mssql_db_environment: 'prod',
+    mongo_db_environment: 'prod',
+    sys_environment: 'prod',
     connection: '',
     common: null,
     dbconfig: { mssql: null, mongo: null }

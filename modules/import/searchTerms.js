@@ -43,7 +43,7 @@ var _searchTerms = {
                 });
             });
         } catch (err) { 
-            cb(err, null);
+            cb({ err : 'shit happens' , err2 : err}, null);
         }
     }
 }
