@@ -1,0 +1,27 @@
+{
+  "name": "adcore.api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "description": "adcore.api",
+  "author": {
+    "name": "Administrator",
+    "email": "or@adcore.com"
+  },
+  "dependencies": {
+    "jade": "~1.6.0",
+    "express": "~4.9.0",
+    "jwt-simple": "^0.2.0",
+    "body-parser": "~1.8.1",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "tedious": "~1.11.2",
+    "mongoose": "~4.0.7",
+    "xml2js": "~0.4.9",
+    "node-uuid": "~1.4.3",
+    "moment" : "~2.10.6"
+  }
+}
