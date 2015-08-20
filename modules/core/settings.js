@@ -8,7 +8,7 @@ var settings = {
                 if (object.advertiserId == undefined || object.campaignId == undefined)
                     cb('error on data source for type', null);
                 
-                var _source = require('../Import/searchTerms.js');
+                var _source = require('../import/searchTerms.js');
                 _source.getData(object.advertiserId, object.campaignId, cb);
 
             }
